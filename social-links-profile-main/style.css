@@ -1,0 +1,70 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400, 600, 700;
+  color: var(--white);
+  background-color: var(--grey-900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.container {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey-800);
+  border-radius: 10px;
+  padding: 20px 5px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.pic {
+  border-radius: 50%;
+}
+
+.heading {
+
+}
+
+.location {
+  color: var(--green);
+}
+
+.link-holder {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.btn {
+  background-color: var(--grey-700);
+  color: var(--white);
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
